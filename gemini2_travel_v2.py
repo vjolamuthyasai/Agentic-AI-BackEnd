@@ -12,7 +12,7 @@ from functools import lru_cache
 
 # Load API Keys
 GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBD3rn2SfCXHb0T5-nZDGo7SVgad0xMxbQ")
-SERP_API_KEY = os.getenv("SERP_API_KEY", "f8d34262d6596b29f8412b5dc154b8abe342aa55f104f1116a5d79d64719b8f9")
+SERP_API_KEY = os.getenv("SERP_API_KEY", "0296a7752ee52a06fca03f74a6ba0c6115aaabd6752893cc7aee55e1b696b88e")
 
 # Initialize Logger
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
